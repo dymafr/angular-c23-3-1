@@ -35,6 +35,7 @@ import { MatTooltipModule } from '@angular/material/tooltip';
 import { MatAutocompleteModule } from '@angular/material/autocomplete';
 import { CdkTableModule } from '@angular/cdk/table';
 import { FormFieldErrorExemple } from './app/form-field-error-example';
+import 'zone.js'; // pour Stackblitz uniquement
 
 @NgModule({
   exports: [
